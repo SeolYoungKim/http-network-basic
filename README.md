@@ -9,7 +9,7 @@
 ## 참가 인원
 
 | 딱구 | 2jun0 | 희도 | Lucky-BE | Chomin21 |
-|:---:|:---:|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|:---:|
 | [깃허브](https://github.com/SeolYoungKim) | [깃허브](https://github.com/2jun0) | [깃허브](https://github.com/mingseok) | [깃허브](https://github.com/Lucky-BE) | [깃허브](https://github.com/Chomin21) |
 
 
