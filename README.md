@@ -1,4 +1,4 @@
-# effective_java_study
+# http-network-basic
 ### 책 - 그림으로 배우는 HttpNetwork Basic
 
 ## 기간
