@@ -5,11 +5,11 @@
 2. 서버는 요청에 대한 응답을 내려줌과 동시에, 상태 코드도 함께 준다. (세자리 숫자임)
 
 ### 상태 코드는 아래와 같이 서버에서 지정해서 내려줄 수 있다.
-![img.png](www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F3f467f64-fd98-4a79-b9c6-7ebe523634a4%2Fimg.png?table=block&id=a69531a9-5468-40ea-8c03-dc1b46f718c2&spaceId=6ab339bf-fa4b-491d-baa7-ed6f0a59be7f&width=2000&userId=876ba984-a6e3-47c2-807b-ce419f46810c&cache=v2)
+![](www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F3f467f64-fd98-4a79-b9c6-7ebe523634a4%2Fimg.png?table=block&id=a69531a9-5468-40ea-8c03-dc1b46f718c2&spaceId=6ab339bf-fa4b-491d-baa7-ed6f0a59be7f&width=2000&userId=876ba984-a6e3-47c2-807b-ce419f46810c&cache=v2)
 - 에러 났는데 200OK를 강제로 내려줄 수도 있다. (서버개발자 마음임)
 
 
-![img_1.png](www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F5fe165bd-630a-41b0-a207-9ab2649046fe%2Fimg_1.png?table=block&id=b9f545d1-ae02-4ca1-819f-4afe38ff64ed&spaceId=6ab339bf-fa4b-491d-baa7-ed6f0a59be7f&width=2000&userId=876ba984-a6e3-47c2-807b-ce419f46810c&cache=v2)
+![](www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F5fe165bd-630a-41b0-a207-9ab2649046fe%2Fimg_1.png?table=block&id=b9f545d1-ae02-4ca1-819f-4afe38ff64ed&spaceId=6ab339bf-fa4b-491d-baa7-ed6f0a59be7f&width=2000&userId=876ba984-a6e3-47c2-807b-ce419f46810c&cache=v2)
 - 위와 같이 500 Internal Server Error인데 초록불 뜨게 할수도 있음.
 
 
