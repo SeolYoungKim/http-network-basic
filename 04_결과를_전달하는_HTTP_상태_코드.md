@@ -5,11 +5,11 @@
 2. 서버는 요청에 대한 응답을 내려줌과 동시에, 상태 코드도 함께 준다. (세자리 숫자임)
 
 ### 상태 코드는 아래와 같이 서버에서 지정해서 내려줄 수 있다.
-![img.png](www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F3f467f64-fd98-4a79-b9c6-7ebe523634a4%2Fimg.png?table=block&id=a69531a9-5468-40ea-8c03-dc1b46f718c2&spaceId=6ab339bf-fa4b-491d-baa7-ed6f0a59be7f&width=2000&userId=876ba984-a6e3-47c2-807b-ce419f46810c&cache=v2)
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3f467f64-fd98-4a79-b9c6-7ebe523634a4/img.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T132909Z&X-Amz-Expires=86400&X-Amz-Signature=9155b6bf48349699b9f9da5254fcd555c52d31104c74e5a1b283e41bf8ce295c&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22img.png%22&x-id=GetObject)
 - 에러 났는데 200OK를 강제로 내려줄 수도 있다. (서버개발자 마음임)
 
 
-![img_1.png](www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F5fe165bd-630a-41b0-a207-9ab2649046fe%2Fimg_1.png?table=block&id=b9f545d1-ae02-4ca1-819f-4afe38ff64ed&spaceId=6ab339bf-fa4b-491d-baa7-ed6f0a59be7f&width=2000&userId=876ba984-a6e3-47c2-807b-ce419f46810c&cache=v2)
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5fe165bd-630a-41b0-a207-9ab2649046fe/img_1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T132850Z&X-Amz-Expires=86400&X-Amz-Signature=5cc8d87fc88488a9c90510a66aaad3016e6d389d6b3b11e03838d8922704d1d7&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22img_1.png%22&x-id=GetObject)
 - 위와 같이 500 Internal Server Error인데 초록불 뜨게 할수도 있음.
 
 
