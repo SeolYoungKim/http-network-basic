@@ -15,7 +15,7 @@ Request 측 HTTP 메시지를 `리퀘스트 메시지` Response 측 HTTP 메시�
 
 - HTTP 메시지는 복수 행의 데이터로 구성된 텍스트 문자열이다.
 - 크게 구분하면 `메시지 헤더`와 `메시지 바디`로 구성
-- 개행 문자는``CR+LF``` 사용
+- 개행 문자는``CR+LF`` 사용
 - 메시지 바디가 항상 존재한다고는 할 수 없다.
 
 <img width="400px" height="450px" src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e809be3d-524c-4a65-8b3a-24f3ec8fea64/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221215%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221215T151838Z&X-Amz-Expires=86400&X-Amz-Signature=7e75c5f9c599aaf699d79d3c75f1f55fad7b24d5f7467880505e8e2479ef111e&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject" alt="img"/>
@@ -127,8 +127,8 @@ https://gmlwjd9405.github.io/2019/01/28/http-header-types.html
 <br/>
 
 - HTTP로 데이터를 전송시 인코딩(변환)을 하면 전송 효율을 높일 수 있다.
-- 다량의 엑세스를 효율 좋게 저리할 수 있다.
-- 컴퓨터에서 인코딩 처리를 하기 떄문에 CPU등의 리소스는 보다 많이 소비하게 된다.
+- 다량의 엑세스를 효율 좋게 처리할 수 있다.
+- 컴퓨터에서 인코딩 처리를 하기 때문에 CPU등의 리소스는 보다 많이 소비하게 된다.
 
 <br/>
 <br/>
@@ -170,7 +170,7 @@ HTTP에는 전송할 때 압축해서 보낼 수 있는 `콘텐츠 코딩(Conten
 
 - gzip(GNU zip)
 - compress(UNIX의 표준 압축)
-- daflate(zlib)
+- deflate(zlib)
 - identity(인코딩 없음)
 
 <br/>
@@ -199,7 +199,7 @@ HTTP에는 전송할 때 압축해서 보낼 수 있는 `콘텐츠 코딩(Conten
 <br/>
 
 MIME(Multipurpose Internet Mail Extensions : 다목적 인터넷 메일 확장 사양)는 메일로 텍스트, 영상, 이미지와 같은 여러 다른 데이터를 다루기 위한 기능을 사용한다.  
-이와같이 여러 데이터를 수용하는 방법을 멀티파트(Multipart)라고 한다.
+이와같이 여러 데이터를 수용하는 방법을 MIME의 확장 사양인 멀티파트(Multipart)라고 한다.
 
 <br/>
 
@@ -320,12 +320,11 @@ Range: byte = -3000, 5000-7000
 > 콘텐츠 네고시에이션은 클라이언트와 서버가 제공하는 리소스의 내용에 대해서 협상 하는 것이다.  
 > 제공하는 리소스를 언어와 문자 세트, 인코딩 방식 등을 기준으로 판단한다.  
 > 판단 기준은 리퀘스트 메시지에 포함된 다음과 같은 리퀘스트 헤더 필드이다.
-
-- Accept
-- Accept-Charset
-- Accept-Encoding
-- Accept-Language
-- Content-Language
+> - Accept
+> - Accept-Charset
+> - Accept-Encoding
+> - Accept-Language
+> - Content-Language
 
 <br/>
 
