@@ -268,8 +268,7 @@ CONNECT 메소드는 TCP 통신을 터널링 시키기 위해서 사용합니다
 #### 리퀘스트
 
 ```rest
-CONNECT proxy.hackr.jp:8080 HTTP/1.1
-host: proxy.hackr.jp
+CONNECT www.google.com:443 HTTP/1.1
 ```
 
 #### 리스폰스
